@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #E4F7FF;
+}
+
+img {
+    margin: 10px 0 10px 10px;
+    height: 65px;
+    width: auto;
+}
+
+.navbar {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.links {
+    margin-right: 10px;
+}
+
+.navbar a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#big-button{
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 40px;
+    background-color: #54BFFB;
+}
+
+.flex-hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image {
+    height: 442px;
+    width: auto;
+}
+
+.flex-hero-item {
+    padding: 5% 10%;
+    width: 50%;
+}
+
+.flex-hero-item a {
+    margin-right: 10px;
+}
+
+.flex-hero-right {
+    padding: 5% 10%;
+    width: 50%;
+    text-align: right;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#h1-center {
+    text-align: center;
+}
+
+.flex-publications {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 0;
+    margin-bottom: 20px;
+    background-color: #ACE6FF;
+}
+
+.flex-pub-item {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: #333;    
+    font-size: 30px;
+}
+.flex-pub-item a {
+    display: inline-block;
+    position: relative;
+    transform: translateY(180px);
+
+    text-align: center;
+    color: #fff;
+    background-color: #54BFFB;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5%;
+    margin-bottom: 70px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #ACE6FF;
+}
+
+footer{
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #ffffff;
+    padding: 60px 10%;
+}
+
+ul{
+    list-style: none;
+}
+
+.footer-col{
+    width: 25%;
+}
+
+.footer-col img {
+    position: relative;
+    bottom: 10px;
+    height: 55px;
+    width: auto;
+}
+
+.footer-col h4{
+    position: relative;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000000;
+}
+
+ul li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+ul li a{
+    display: block;
+    font-size: 19px;
+    color: #000000;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+ul li a:hover{
+    color: #000000;
+    padding-left: 2px;
+}
